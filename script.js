@@ -8,3 +8,5 @@ console.log(`The subtraction of a and b is ${a-b}`);
 console.log(`The multiplication of a and b is ${a*b}`);
 // DIVISION
 console.log(`The division of a and b is ${a/b}`);
+// REMAINDER
+console.log(`The remainder of a and b is ${a%b}`);
