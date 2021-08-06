@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Input</title>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" placeholder="Enter your name" id="name"/><br/><br/>
+            <input type="text" placeholder="Enter your city" id="city"/><br/><br/>
+            <button type="button" id="btn" onclick="addInput()">ADD</button>
+        </form>
+    </div>
+    <div">
+        <p id="para1"></p>
+        <p id="para2"></p>
+    </div>
+</body>
+<script>
+function addInput(){
+    document.getElementById('para1').innerHTML=document.getElementById('name').value;
+    document.getElementById('para2').innerHTML=document.getElementById('city').value;
+} 
+</script>
+</html>
